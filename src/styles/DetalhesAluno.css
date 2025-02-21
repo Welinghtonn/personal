@@ -1,0 +1,152 @@
+.detalhes-aluno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.voltar {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #555;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.status {
+    color: green;
+    font-weight: bold;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.tabs button.active {
+    background: #007bff;
+    color: white;
+}
+
+.frequencia-treino {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dias {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.dia {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #ddd;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.opcoes-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.inicio-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.opcao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.opcao:hover {
+    background: #007bff;
+    color: white;
+}
+.botoes-container {
+    display: flex;
+    flex-direction: column; /* Alinha os botões verticalmente */
+    gap: 10px; /* Espaçamento entre os botões */
+    padding-top: 10px ;
+    width: 100%;
+    align-items: center; /* Centraliza os botões */
+  }
+  
+  .botoes-container button {
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    max-width: 400px; /* Define um limite máximo de largura */
+    padding: 15px; /* Aumenta o tamanho dos botões */
+    font-size: 16px; /* Ajusta o tamanho do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+  
+  .botoes-container .btn-inativar {
+    border: 2px solid blue;
+    color: blue;
+    background-color: white;
+  }
+  
+  .botoes-container .btn-excluir {
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+  }
